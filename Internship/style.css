@@ -1,0 +1,64 @@
+.caption
+{
+    background-color: #000000;
+    opacity: 0.75;
+    border-radius: 5px;
+
+}
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    height: 150px;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    margin: 0 5px;
+  }
+  
+  .quick-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .quick-links a:hover {
+    color: #d9534f;
+  }
+  .slide{
+    background-color: black;
+  }
+
+  @keyframes slideInOut {
+    0% {
+      transform: translateX(-100%);
+      opacity: 1;
+    }
+    25% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+      75% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    100% {
+      transform: translateX(100%);
+      opacity: 1;
+    }
+  }
+
+  .animated-text {
+    position: relative;
+    animation: slideInOut 100s linear infinite;
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides any overflow */
+    background-color: black;
+    color: rgb(255, 255, 255); /* Red color for danger */
+    padding: 5px;
+    display: inline-block;
+  }
